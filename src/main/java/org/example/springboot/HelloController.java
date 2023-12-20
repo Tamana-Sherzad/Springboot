@@ -16,8 +16,6 @@ public class HelloController {
         System.out.println(name);
         return "Hello, " + name + "!";
 
-
-
         }
     }
 
