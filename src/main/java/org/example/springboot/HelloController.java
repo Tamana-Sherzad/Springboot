@@ -14,7 +14,7 @@ public class HelloController {
     @PostMapping("api/hello")
     public String sayHelloTo(@RequestBody String name) {
         System.out.println(name);
-        return "Hello " + name;
+        return "Hello, " + name + "!";
 
 
 
